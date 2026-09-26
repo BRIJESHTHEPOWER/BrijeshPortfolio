@@ -92,7 +92,7 @@ export default function About() {
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                   </svg>
                 </a>
-                <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="social-icon-btn whatsapp-btn" aria-label="WhatsApp">
+                <a href="https://wa.me/918301840897" target="_blank" rel="noopener noreferrer" className="social-icon-btn whatsapp-btn" aria-label="WhatsApp">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366">
                     <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984 0 1.763.459 3.483 1.332 5.001l-1.417 5.176 5.297-1.39a9.92 9.92 0 004.773 1.218h.004c5.505 0 9.988-4.479 9.989-9.985 0-2.667-1.037-5.175-2.923-7.062A9.919 9.919 0 0012.012 2z" />
                   </svg>

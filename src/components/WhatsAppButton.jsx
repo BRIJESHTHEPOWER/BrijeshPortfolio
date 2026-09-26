@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 // Replace with your actual WhatsApp phone number including country code (without + or spaces)
 // Example: "919876543210" for India (+91)
-const WHATSAPP_NUMBER = '8301840897'
+const WHATSAPP_NUMBER = '918301840897'
 
 const PRESET_TOPICS = [
   'Add a feature to existing project',
