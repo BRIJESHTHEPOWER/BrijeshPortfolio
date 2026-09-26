@@ -3,6 +3,21 @@ import { AnimatePresence, motion } from 'framer-motion'
 
 const PROJECTS = [
   {
+    id: 'resume-ai',
+    name: 'ResumeAI',
+    category: 'AI & CareerTech',
+    type: 'Featured AI Platform',
+    copy: 'An intelligent AI-powered resume analyzer platform leveraging LLMs for automated resume scoring, ATS optimization, skill gap analysis, and tailored career recommendations.',
+    stack: ['React', 'Python', 'FastAPI', 'LLM / Gemini', 'Tailwind'],
+    accent: 'var(--coral)',
+    liveDemo: 'https://github.com/BRIJESHTHEPOWER',
+    sourceCode: 'https://github.com/BRIJESHTHEPOWER',
+    demoVideo: '/videos/ResumeAnalyzer.mp4',
+    thumbnail: '',
+    note: 'Interactive AI demo • Instant ATS score & feedback.',
+    featured: true,
+  },
+  {
     id: 'vidhanai',
     name: 'VidhanAI',
     category: 'AI & LegalTech',
@@ -71,7 +86,7 @@ const PROJECTS = [
   },
 ]
 
-const CATEGORIES = ['All', 'AI & LegalTech', 'Collaboration', 'Dashboard', 'Commerce', 'Developer Tool']
+const CATEGORIES = ['All', 'AI & CareerTech', 'AI & LegalTech', 'Collaboration', 'Dashboard', 'Commerce', 'Developer Tool']
 
 function ArrowIcon() {
   return (
