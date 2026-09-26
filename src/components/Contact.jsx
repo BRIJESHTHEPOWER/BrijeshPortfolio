@@ -6,7 +6,7 @@ const CONTACT_METHODS = [
     id: 'whatsapp',
     label: 'WHATSAPP',
     value: 'Chat directly on WhatsApp',
-    href: 'https://wa.me/918301840897?text=Hi%20Brijesh%2C%20I%20would%20like%20to%20discuss%20a%20project!',
+    href: 'https://wa.me/918301840897?text=Hi%20Brijesh%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="#25D366">
         <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984 0 1.763.459 3.483 1.332 5.001l-1.417 5.176 5.297-1.39a9.92 9.92 0 004.773 1.218h.004c5.505 0 9.988-4.479 9.989-9.985 0-2.667-1.037-5.175-2.923-7.062A9.919 9.919 0 0012.012 2z" />

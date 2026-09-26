@@ -6,8 +6,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 const WHATSAPP_NUMBER = '918301840897'
 
 const PRESET_TOPICS = [
-  'Add a feature to existing project',
+  'General Inquiry / Project Discussion',
   'Build a new web application',
+  'Add a feature to existing project',
   'Freelance / Contract work',
   'Code review & performance optimization',
 ]
@@ -19,9 +20,14 @@ export default function WhatsAppButton() {
 
   const handleSendMessage = (e) => {
     e?.preventDefault()
-    const textDetails = customMessage.trim()
-      ? `Hi Brijesh! Topic: ${selectedTopic}. Message: ${customMessage.trim()}`
-      : `Hi Brijesh! I'd like to discuss: ${selectedTopic}`
+    let textDetails = ''
+    if (customMessage.trim()) {
+      textDetails = `Hi Brijesh! ${customMessage.trim()}`
+    } else if (selectedTopic && selectedTopic !== 'General Inquiry / Project Discussion') {
+      textDetails = `Hi Brijesh! I'd like to discuss: ${selectedTopic}`
+    } else {
+      textDetails = `Hi Brijesh, I saw your portfolio and would like to connect!`
+    }
 
     const encodedText = encodeURIComponent(textDetails)
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedText}`
