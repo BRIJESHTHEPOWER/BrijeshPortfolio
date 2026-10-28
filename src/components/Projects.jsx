@@ -62,61 +62,9 @@ const PROJECTS = [
     note: 'Real-time multi-object tracking • Suspicious activity & loitering alert pipeline.',
     featured: true,
   },
-  {
-    id: 'cloud-hub',
-    name: 'Cloud Workspace Hub',
-    category: 'Collaboration',
-    type: 'Realtime Platform',
-    copy: 'A real-time workspace concept with task boards, collaborative documents, shared state, and fast team workflows.',
-    stack: ['React', 'Node.js', 'PostgreSQL', 'Socket.io'],
-    accent: 'var(--blue)',
-    liveDemo: 'https://github.com/BRIJESHTHEPOWER',
-    sourceCode: 'https://github.com/BRIJESHTHEPOWER',
-    demoVideo: '/videos/cloud-workspace-demo.mp4',
-    thumbnail: '',
-  },
-  {
-    id: 'realtime-analytics',
-    name: 'Real-Time Telemetry',
-    category: 'Dashboard',
-    type: 'Analytics Dashboard',
-    copy: 'A live metrics interface for system performance telemetry, business signals, charts, and WebSocket-powered updates.',
-    stack: ['React', 'FastAPI', 'Recharts', 'WebSockets'],
-    accent: 'var(--green)',
-    liveDemo: 'https://github.com/BRIJESHTHEPOWER',
-    sourceCode: 'https://github.com/BRIJESHTHEPOWER',
-    demoVideo: '/videos/analytics-demo.mp4',
-    thumbnail: '',
-  },
-  {
-    id: 'ecommerce-suite',
-    name: 'Smart E-Commerce Suite',
-    category: 'Commerce',
-    type: 'Storefront System',
-    copy: 'A high-converting storefront system with real-time inventory management, seamless checkout flows, search, and customer analytics.',
-    stack: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    accent: 'var(--coral)',
-    liveDemo: 'https://github.com/BRIJESHTHEPOWER',
-    sourceCode: 'https://github.com/BRIJESHTHEPOWER',
-    demoVideo: '/videos/ecommerce-demo.mp4',
-    thumbnail: '',
-  },
-  {
-    id: 'devcollab',
-    name: 'DevCollab IDE',
-    category: 'Developer Tool',
-    type: 'Realtime Code Tool',
-    copy: 'A collaborative code editor concept with live multi-user cursors, instant syntax highlighting, and WebRTC streaming.',
-    stack: ['React', 'Socket.io', 'WebRTC', 'Monaco Editor'],
-    accent: 'var(--violet)',
-    liveDemo: 'https://github.com/BRIJESHTHEPOWER',
-    sourceCode: 'https://github.com/BRIJESHTHEPOWER',
-    demoVideo: '/videos/devcollab-demo.mp4',
-    thumbnail: '',
-  },
 ]
 
-const CATEGORIES = ['All', 'AI & Surveillance', 'AI & Computer Vision', 'AI & CareerTech', 'AI & LegalTech', 'Collaboration', 'Dashboard', 'Commerce', 'Developer Tool']
+const CATEGORIES = ['All', 'AI & Surveillance', 'AI & Computer Vision', 'AI & CareerTech', 'AI & LegalTech']
 
 function ArrowIcon() {
   return (
