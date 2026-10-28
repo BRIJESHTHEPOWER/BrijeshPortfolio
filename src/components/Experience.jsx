@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 
 const ITEMS = [
-  ['2026 - Present', 'Full Stack Developer Intern', 'CleanCode', 'Building UI components, REST APIs, auth flows, and deployment-friendly application features with a production mindset.'],
+  ['2026 - Present', 'AI/ML Intern', 'CleanCode', 'Developing machine learning models, computer vision pipelines, and intelligent AI-driven applications with a production mindset.'],
   ['2024 - 2026', 'MCA - Master of Computer Applications', 'St Agnes Autonomous College, Mangalore', 'Studying software engineering, web development, databases, and cloud-oriented application architecture.'],
   ['2023', 'Full Stack & Web Development Intern', 'Encode and Data Tech', 'Built responsive web applications and practiced complete development cycles from UI structure to API integration.'],
   ['2022 - 2023', 'Self-Taught Developer', 'Personal Projects', 'Started with HTML, CSS, and JavaScript, then moved into React, Node.js, Python, databases, and project-based learning.'],
