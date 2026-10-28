@@ -6,6 +6,7 @@ const ALL_SKILLS = [
   { name: 'JavaScript', category: 'Frontend', color: 'var(--hero-yellow)', textColor: 'var(--ink)' },
   { name: 'HTML5 & CSS3', category: 'Frontend', color: 'var(--coral)', textColor: '#fff' },
   { name: 'Tailwind CSS', category: 'Frontend', color: '#38bdf8', textColor: 'var(--ink)' },
+  { name: 'Streamlit', category: 'Frontend', color: '#ff4b4b', textColor: '#fff' },
   { name: 'Framer Motion', category: 'Frontend', color: 'var(--magenta)', textColor: '#fff' },
   
   { name: 'Node.js', category: 'Backend', color: 'var(--green)', textColor: '#fff' },
@@ -18,6 +19,7 @@ const ALL_SKILLS = [
   { name: 'PostgreSQL', category: 'Data', color: 'var(--blue)', textColor: '#fff' },
   { name: 'MongoDB', category: 'Data', color: 'var(--green)', textColor: '#fff' },
   { name: 'OpenCV', category: 'Data', color: 'var(--violet)', textColor: '#fff' },
+  { name: 'YOLOv8', category: 'Data', color: 'var(--coral)', textColor: '#fff' },
   { name: 'Schema Design', category: 'Data', color: 'var(--violet)', textColor: '#fff' },
   { name: 'Analytics', category: 'Data', color: 'var(--magenta)', textColor: '#fff' },
 

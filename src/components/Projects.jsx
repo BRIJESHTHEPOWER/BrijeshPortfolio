@@ -48,6 +48,21 @@ const PROJECTS = [
     featured: true,
   },
   {
+    id: 'anomaly-ai',
+    name: 'AnomalyAI',
+    category: 'AI & Surveillance',
+    type: 'CCTV Video Analytics',
+    copy: 'An AI-powered CCTV surveillance platform leveraging YOLOv8 and ByteTrack to detect suspicious running movements and loitering in real time with automated alert reports.',
+    stack: ['Python', 'YOLOv8', 'ByteTrack', 'OpenCV', 'Streamlit'],
+    accent: 'var(--coral)',
+    liveDemo: 'https://anomaly-i1iw.onrender.com',
+    sourceCode: 'https://github.com/BRIJESHTHEPOWER/anomaly',
+    demoVideo: '/videos/anomaly.mp4',
+    thumbnail: '',
+    note: 'Real-time multi-object tracking • Suspicious activity & loitering alert pipeline.',
+    featured: true,
+  },
+  {
     id: 'cloud-hub',
     name: 'Cloud Workspace Hub',
     category: 'Collaboration',
@@ -101,7 +116,7 @@ const PROJECTS = [
   },
 ]
 
-const CATEGORIES = ['All', 'AI & Computer Vision', 'AI & CareerTech', 'AI & LegalTech', 'Collaboration', 'Dashboard', 'Commerce', 'Developer Tool']
+const CATEGORIES = ['All', 'AI & Surveillance', 'AI & Computer Vision', 'AI & CareerTech', 'AI & LegalTech', 'Collaboration', 'Dashboard', 'Commerce', 'Developer Tool']
 
 function ArrowIcon() {
   return (
