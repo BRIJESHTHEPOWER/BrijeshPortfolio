@@ -33,6 +33,21 @@ const PROJECTS = [
     featured: true,
   },
   {
+    id: 'cartoonify-ai',
+    name: 'Cartoonify AI',
+    category: 'AI & Computer Vision',
+    type: 'Featured Vision AI',
+    copy: 'A Flask web application transforming photos into cartoon-style artwork via an OpenCV image processing pipeline featuring bilateral color smoothing, median noise filtering, and adaptive threshold edge detection.',
+    stack: ['Python', 'OpenCV', 'Flask', 'Bootstrap 5', 'CSS'],
+    accent: 'var(--violet)',
+    liveDemo: 'https://cartoonify-app-2s47.onrender.com',
+    sourceCode: 'https://github.com/BRIJESHTHEPOWER/cartoonify-app',
+    demoVideo: '/videos/cartoonify.mp4',
+    thumbnail: '',
+    note: 'Pure OpenCV image processing • Instant cartoonification without heavy deep learning models.',
+    featured: true,
+  },
+  {
     id: 'cloud-hub',
     name: 'Cloud Workspace Hub',
     category: 'Collaboration',
@@ -86,7 +101,7 @@ const PROJECTS = [
   },
 ]
 
-const CATEGORIES = ['All', 'AI & CareerTech', 'AI & LegalTech', 'Collaboration', 'Dashboard', 'Commerce', 'Developer Tool']
+const CATEGORIES = ['All', 'AI & Computer Vision', 'AI & CareerTech', 'AI & LegalTech', 'Collaboration', 'Dashboard', 'Commerce', 'Developer Tool']
 
 function ArrowIcon() {
   return (

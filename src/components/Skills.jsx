@@ -12,10 +12,12 @@ const ALL_SKILLS = [
   { name: 'Express.js', category: 'Backend', color: '#11130f', textColor: '#fff' },
   { name: 'Python', category: 'Backend', color: 'var(--hero-yellow)', textColor: 'var(--ink)' },
   { name: 'FastAPI', category: 'Backend', color: 'var(--acid)', textColor: 'var(--ink)' },
+  { name: 'Flask', category: 'Backend', color: 'var(--magenta)', textColor: '#fff' },
   { name: 'REST APIs', category: 'Backend', color: 'var(--coral)', textColor: '#fff' },
 
   { name: 'PostgreSQL', category: 'Data', color: 'var(--blue)', textColor: '#fff' },
   { name: 'MongoDB', category: 'Data', color: 'var(--green)', textColor: '#fff' },
+  { name: 'OpenCV', category: 'Data', color: 'var(--violet)', textColor: '#fff' },
   { name: 'Schema Design', category: 'Data', color: 'var(--violet)', textColor: '#fff' },
   { name: 'Analytics', category: 'Data', color: 'var(--magenta)', textColor: '#fff' },
 
